@@ -7,7 +7,7 @@ from langgraph.graph import END, START, StateGraph, MessagesState
 
 @tool
 def get_weather(location: str):
-    """Call to get the restaurant"""
+    """Call to get the weather"""
     if location.lower() in ["서울", "인천"]:
         return "It's 60 degrees and foggy."
     else:
