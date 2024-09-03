@@ -2,7 +2,8 @@
   "dependencies": ["."],
   "graphs": {
     "agent_test": "./agent_test.py:graph",
-    "agent": "./agent.py:graph"
+    "agent": "./agent.py:graph",
+    "web_agent": "./web_agent.py:graph"
   },
   "env": ".env"
 }
