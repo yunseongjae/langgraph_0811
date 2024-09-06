@@ -3,7 +3,8 @@
   "graphs": {
     "agent_test": "./agent_test.py:graph",
     "agent": "./agent.py:graph",
-    "web_agent": "./web_agent.py:graph"
+    "web_agent": "./web_agent.py:graph",
+    "writer_agent": "./writer_agent.py:app"
   },
   "env": ".env"
 }
