@@ -3,6 +3,6 @@ langchain-anthropic
 tavily-python
 langchain-community
 langchain-openai
-bs4
+beautifulsoup4
 langchainhub
 tiktoken
