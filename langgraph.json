@@ -4,7 +4,8 @@
     "agent_test": "./agent_test.py:graph",
     "agent": "./agent.py:graph",
     "web_agent": "./web_agent.py:graph",
-    "writer_agent": "./writer_agent.py:app"
+    "writer_agent": "./writer_agent.py:app",
+    "Agentic_rag": "./Agentic_rag.py:app",
   },
   "env": ".env"
 }
