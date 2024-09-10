@@ -1,5 +1,8 @@
 langgraph
-langchain_anthropic
+langchain-anthropic
 tavily-python
-langchain_community
-langchain_openai
+langchain-community
+langchain-openai
+bs4
+langchainhub
+tiktoken
