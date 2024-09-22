@@ -1,5 +1,5 @@
 from typing import List
-
+from typing_extensions import TypedDict
 from langchain_core.messages import SystemMessage
 from langchain_openai import ChatOpenAI
 
