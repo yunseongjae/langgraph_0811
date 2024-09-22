@@ -8,3 +8,4 @@ langchainhub
 tiktoken
 chromadb
 python-docx
+langchain_experimental
