@@ -5,7 +5,13 @@
     "agent": "./agent.py:graph",
     "web_agent": "./web_agent.py:graph",
     "writer_agent": "./writer_agent.py:app",
-    "Agentic_rag": "./Agentic_rag.py:graph"
+    "Agentic_rag": "./Agentic_rag.py:graph",
+    "self_rag": "./self_rag.py:app",
+    "corrective_rag":"./corrective_rag.py:app",
+    "adaptive_rag":"./adaptive_rag.py:app",
+    "report_with_image_agent":"./report_with_image_agent.py:graph",
+    "web_code_executor":"./web_code_executor.py:graph",
+    "prompt_generator":"./prompt_generator.py:graph"
   },
   "env": ".env"
 }
