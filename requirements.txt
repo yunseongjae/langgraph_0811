@@ -14,3 +14,4 @@ pydub
 youtube-search
 youtube-transcript-api
 nest_asyncio
+wolframalpha
