@@ -9,3 +9,4 @@ tiktoken
 chromadb
 python-docx
 langchain_experimental
+yfinance
