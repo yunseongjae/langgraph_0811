@@ -11,3 +11,5 @@ python-docx
 langchain_experimental
 yfinance
 pydub
+youtube-search
+youtube-transcript-api
