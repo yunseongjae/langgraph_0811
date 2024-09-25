@@ -1,3 +1,5 @@
+import asyncio
+asyncio.set_event_loop_policy(asyncio.DefaultEventLoopPolicy())
 import nest_asyncio
 nest_asyncio.apply()
 
