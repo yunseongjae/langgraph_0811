@@ -1,6 +1,3 @@
-import nest_asyncio
-nest_asyncio.apply()
-
 from langchain_community.utilities.wolfram_alpha import WolframAlphaAPIWrapper
 wolfram = WolframAlphaAPIWrapper()
 
