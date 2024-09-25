@@ -12,7 +12,7 @@ from langgraph.graph.message import add_messages
 
 class State(TypedDict):
     messages: Annotated[list, add_messages]
-    focus: Literal["web", "academic", "video"]
+    focus: Literal["web", "academic", "video", "math"]
 
 from langchain_community.tools.tavily_search import TavilySearchResults
 from langchain_community.utilities import ArxivAPIWrapper
