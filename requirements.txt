@@ -16,3 +16,4 @@ youtube-transcript-api
 nest_asyncio
 wolframalpha
 langchain_chroma
+pytube
