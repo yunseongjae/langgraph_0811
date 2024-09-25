@@ -13,7 +13,8 @@
     "web_code_executor":"./web_code_executor.py:graph",
     "prompt_generator":"./prompt_generator.py:graph",
     "supervisor_agent":"./supervisor_agent.py:graph",
-    "hierarchical_agent":"./hierarchical_agent.py:super_graph"
+    "hierarchical_agent":"./hierarchical_agent.py:super_graph",
+    "perplexity_agent":"./perplexity_agent.py:graph"
   },
   "env": ".env"
 }
