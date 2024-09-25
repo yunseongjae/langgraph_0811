@@ -63,7 +63,9 @@ youtube_search_tool = YouTubeSearchTool()
 @tool
 def video_tool(query:str) -> str:
     """
-    Retriever tool for the transcript of a YouTube video. query should be given in string format.
+    Retriever tool for the transcript of a YouTube video.
+    If user want to find some information, this tool is good to gather youtube video information.
+    query should be given in string format.
     """
     #query에 해당하는 Youtube 비디오 URL 가져오기
     urls = youtube_search_tool.run(query)
