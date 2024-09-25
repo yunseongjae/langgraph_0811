@@ -51,7 +51,7 @@ def math_tool(query:str):
 
 from langchain_chroma import Chroma
 from langchain_openai import OpenAIEmbeddings
-from langchain_text_splitters import CharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.tools import YouTubeSearchTool
 from langchain_community.document_loaders import YoutubeLoader
 from langchain_core.documents import Document
@@ -84,7 +84,10 @@ def video_tool(query:str) -> str:
         docs.append(doc)
 
     #모든 비디오의 내용을 벡터DB에 담기
-    text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0)
+    text_splitter = RecursiveCharacterTextSplitter(
+        separators  = ["\n\n", "\n", ".", ",", " ", ""],
+        chunk_size=1000, 
+        chunk_overlap=0)
     texts = text_splitter.split_documents(docs)
     embeddings = OpenAIEmbeddings()
     db = Chroma.from_documents(texts, embeddings)
