@@ -8,6 +8,13 @@ from langchain_openai import ChatOpenAI
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langgraph.types import Send
 
+from langchain_google_genai import ChatGoogleGenerativeAI
+# 모델 로드 
+llm = ChatGoogleGenerativeAI(
+    model="gemini-1.5-flash",
+    temperature=0,
+    max_output_tokens=8192)
+
 # 지원 언어 정의
 class Language(str, Enum):
     KOREAN = "korean"
