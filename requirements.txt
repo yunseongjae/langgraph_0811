@@ -17,3 +17,4 @@ nest_asyncio
 wolframalpha
 langchain_chroma
 pytube
+langchain_google_genai
